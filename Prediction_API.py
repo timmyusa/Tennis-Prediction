@@ -23,7 +23,7 @@ def retrieve_percentages(player_id, srface):
 
 # MODEL PARAMETERS
 
-model_year = 2012
+model_year = 2021
 model = load_model('prediction_model.h5')
 
 with open('indicators_dicts_%i' % model_year, 'rb') as file:

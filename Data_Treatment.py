@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import random
 
-year_to_study = 2012
+year_to_study = 2021
 
 with open('Data_%i' % year_to_study, 'rb') as file:
     my_unpickler = pickle.Unpickler(file)

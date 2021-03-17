@@ -3,7 +3,7 @@ import Player
 import pickle
 
 
-year_to_study = 2019
+year_to_study = 2021
 
 df_players = pd.read_csv('../Data/atp_players.csv', header=None, names=[1, 2, 3, 4, 5, 6], encoding="ISO-8859-1")
 df_matches_year_to_study = pd.read_csv('../Data/atp_matches_%i.csv' % year_to_study)

@@ -1,8 +1,8 @@
 import pickle
 import random
 
-model_year = 2012
-year_to_treat = 2015
+model_year = 2021
+year_to_treat = 2021
 
 with open('Data_%i' % year_to_treat, 'rb') as file:
     my_unpickler = pickle.Unpickler(file)

@@ -1,0 +1,17 @@
+0. Copied Player_statistics.csv and Statistics_creation.py from Player_Statistics folder to root folder
+1. Update year in Statistics_creation.py
+2. Run Player_creation.py
+3. Update csv in Data folder
+4. Run Statistics_creation.py
+5. Run Data_treatment_for_prediction.py
+
+
+    Player.py - used as import in Player_creation.py, Statistics_creation.py 
+        Player_creation.py
+    Statistics_creation.py
+Data_treatment_for_prediction.py
+Data_Treatment.py
+    Match_data_creation.py
+        Match.py - used as import in Match_data_creation.py
+Prediction.py
+Prediction_API.py
